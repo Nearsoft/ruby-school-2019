@@ -1,24 +1,14 @@
-# README
+# Ruby School CUU 2019
+En este repositorio se publicará el avance clase por clase.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Requerimientos
+* Ruby 2.6.3
+* Postgres 9+
+* Rails 5.2
 
-Things you may want to cover:
+## Inicialización del proyecto
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* `bundle install`
+* `rake db:create`
+* `rake db:migrate`
+* `rails s`
